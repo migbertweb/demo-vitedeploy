@@ -1,3 +1,26 @@
+/**
+ * Archivo: App.jsx
+ * 
+ * Descripción: Componente principal de la aplicación React. Contiene la interfaz
+ * de usuario con logos de Vite y React, un contador interactivo que demuestra el
+ * uso de hooks de React (useState), y enlaces a las documentaciones oficiales.
+ * 
+ * Autor: migbertweb
+ * 
+ * Fecha: 2024
+ * 
+ * Repositorio: https://github.com/migbertweb/demo-vitedeploy
+ * 
+ * Licencia: MIT License
+ * 
+ * Uso: Componente funcional que renderiza la UI principal de la aplicación,
+ * incluyendo un contador que se incrementa al hacer clic en el botón, demostrando
+ * el estado reactivo de React y el Hot Module Replacement (HMR) durante el desarrollo.
+ * 
+ * Nota: Este proyecto usa Licencia MIT. Se recomienda (no obliga) mantener 
+ * derivados como código libre, especialmente para fines educativos.
+ */
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
